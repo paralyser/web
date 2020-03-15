@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(223, 217, 217);
+}
+hr {
+  width: 6%;
+  border-style: dotted none none none; /*  Csinalhatjuk ugy is hogy: border style none, es border topstyle dotted */
+  border-width: 6px;
+  border-color: #545454;
+}
+h1 {
+  color: #222831;
+  font-family: cursive;
+  transition: all 1.5s ease-in-out;
+
+}
+h1.name:hover{
+    transition: all 1.5s ease-in-out;
+    color: red;
+}
+h3 {
+  color: #00adb5;
+}
+.avatar {
+    width: 200px;
+    height: auto;
+    transition: all 1.5s ease-out;
+    filter: grayscale(1);
+}
+img:hover { 
+    transition: all 1.5s ease-in;
+    filter: grayscale(0);
+
+}
+/* 
+Id es classok:
+
+Class felhuzasa + Sudoclass pl :hover
+.marha {
+    background-color: zold;
+}
+
+Id felhuzasa:
+
+#marha {
+    stb: 5px;
+}
+
+az id egyedi, csak egy lehet belole egy oldalon ( VSC error), amig a klasszbol tobb is. Egy elemnek akar tobb classa is lehet, de ID ja csak egy.
+*/
